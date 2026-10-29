@@ -27,6 +27,7 @@
 #include "compat/kernel_compat.h"
 #ifdef CONFIG_KSU_SUSFS
 #include <linux/susfs_def.h>
+#include "selinux/selinux.h"
 #endif // #ifdef CONFIG_KSU_SUSFS
 
 #ifdef CONFIG_KSU_SUSFS
